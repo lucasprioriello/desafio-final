@@ -1,0 +1,27 @@
+.btn {
+	width: 100px;
+	height: 50px;
+	border: 1px solid white;
+	border-radius: 100px;
+	color: black;
+	background-color: pink;
+	text-align: center;
+}
+ .btn--si{
+     @extend .btn;
+     background-color:violet;
+     color:white;
+    
+ }
+
+ .btn--no{
+     @extend .btn;
+     background-color:pink;
+     color:white;
+}
+
+.btn--talvez{
+	@extend .btn;
+	background-color:violet;
+	 color:white;
+}

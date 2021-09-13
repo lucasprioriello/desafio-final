@@ -1,0 +1,36 @@
+/* variable */
+$azul:blue;
+$negro:black;
+$rosa:pink;
+$violeta:violet;
+$pDesktop:20px;
+$font-family: 'tahoma';
+.col-lg-6{
+	h1{
+	color:$azul;
+	}
+	p{
+	font:{
+	     size:$pDesktop;
+	     family:bolt
+
+
+
+	     }
+	}
+}
+.presentacion{
+	&__texto{
+	background-color:$rosa;
+	}
+}
+.pie{
+
+	&__logo{color:$rosa}
+	&__redes{color:$violeta}
+	&__contacto{color:$rosa}
+   }
+@import "tamanios";
+@import "color";
+@import "fuente";
+@import "boton";

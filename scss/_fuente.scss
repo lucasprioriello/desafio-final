@@ -1,0 +1,9 @@
+$padding:(
+       TB:50px 50px,
+       LR:20px 20px
+       );
+@each $ubicacion,$espacio in $padding{
+	.padding#{$ubicacion}{
+	          padding:$espacio;
+	}
+}

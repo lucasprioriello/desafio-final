@@ -1,0 +1,88 @@
+/* variable */
+.col-lg-6 h1 {
+  color: blue; }
+
+.col-lg-6 p {
+  font-size: 20px;
+  font-family: bolt; }
+
+.presentacion__texto {
+  background-color: pink; }
+
+.pie__logo {
+  color: pink; }
+
+.pie__redes {
+  color: violet; }
+
+.pie__contacto {
+  color: pink; }
+
+.col-50 {
+  width: 50%; }
+
+.col-1 {
+  width: 10%; }
+
+.col-2 {
+  width: 20%; }
+
+.col-3 {
+  width: 30%; }
+
+.col-4 {
+  width: 40%; }
+
+.col-5 {
+  width: 50%; }
+
+.col-6 {
+  width: 60%; }
+
+.col-7 {
+  width: 70%; }
+
+.col-8 {
+  width: 80%; }
+
+.col-9 {
+  width: 90%; }
+
+.col-10 {
+  width: 100%; }
+
+.pink {
+  color: pink; }
+
+.violet {
+  color: violet; }
+
+.black {
+  color: black; }
+
+.paddingTB {
+  padding: 50px 50px; }
+
+.paddingLR {
+  padding: 20px 20px; }
+
+.btn, .btn--si, .btn--no, .btn--talvez {
+  width: 100px;
+  height: 50px;
+  border: 1px solid white;
+  border-radius: 100px;
+  color: black;
+  background-color: pink;
+  text-align: center; }
+
+.btn--si {
+  background-color: violet;
+  color: white; }
+
+.btn--no {
+  background-color: pink;
+  color: white; }
+
+.btn--talvez {
+  background-color: violet;
+  color: white; }
